@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         Log.w("Greetings!", "Welcome to our app!");
         Log.w("Yo","This is Winston");
         Log.w("Yo","Its el heffe");
+        Log.w("ryan", "this  is me");
     }
 
 }
