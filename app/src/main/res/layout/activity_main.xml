@@ -15,4 +15,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="338dp"
+        android:layout_height="381dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
 </android.support.constraint.ConstraintLayout>
