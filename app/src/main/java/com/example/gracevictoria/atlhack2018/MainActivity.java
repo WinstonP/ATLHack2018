@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Log.w("Yo","This is Winston");
         Log.w("Yo","Its el heffe");
         Log.w("ryan", "this  is me");
+        Log.w("It's your gurl ", "Grace!");
     }
 
 }
