@@ -1,9 +1,11 @@
 package com.example.gracevictoria.atlhack2018;
 
-import android.icu.util.GregorianCalendar;
-import android.icu.util.TimeZone;
-
+import java.sql.Time;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by Grace Victoria on 2/24/2018.
@@ -11,8 +13,17 @@ import java.time.LocalTime;
 
 public class Clock {
     private LocalTime localTime;
-    void GregorianCalendar(TimeZone zone){
 
+
+
+
+    public Date void outputTime() {
+    Date currentTime = Calendar.getInstance().getTime();
+       return currentTime;
     }
+
+
+    //////////////////////////////
+
 
 }
