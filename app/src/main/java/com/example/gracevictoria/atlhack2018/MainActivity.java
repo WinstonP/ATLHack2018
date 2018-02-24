@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         // set the alarm to the time that you picked
         final Calendar calendar = Calendar.getInstance();
 
-        alarmTimePicker = (TimePicker) findViewById(R.id.alarmTimePicker);
+        alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
 
 
 
