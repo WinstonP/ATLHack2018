@@ -1,6 +1,8 @@
 package com.example.gracevictoria.atlhack2018;
 
 
+import android.widget.TimePicker;
+
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -23,6 +25,7 @@ public class Clock {
     public Date outputTime() {
     Date currentTime = Calendar.getInstance().getTime();
        return currentTime;
+
     }
 
 
