@@ -1,4 +1,4 @@
-package com.example.axu1.richarddawkinsalarmclock;
+package com.example.gracevictoria.atlhack2018;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
