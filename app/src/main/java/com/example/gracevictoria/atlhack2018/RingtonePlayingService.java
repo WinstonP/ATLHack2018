@@ -45,7 +45,7 @@ public class RingtonePlayingService extends Service {
         Notification mNotify  = new Notification.Builder(this)
                 .setContentTitle("Richard Dawkins is talking" + "!")
                 .setContentText("Click me!")
-                .setSmallIcon(R.drawable.ic_action_call)
+                .setSmallIcon(R.drawable.weather_img)
                 .setContentIntent(pIntent)
                 .setAutoCancel(true)
                 .build();
