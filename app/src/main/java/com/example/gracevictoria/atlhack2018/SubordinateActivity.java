@@ -22,7 +22,8 @@ public class SubordinateActivity extends Activity{
     public void onCreate( Bundle savedInstanceState ) {
         super.onCreate( savedInstanceState );
         Log.w( DA, "Inside DataActivity:onCreate\n" );
-        weatherFont = Typeface.createFromAsset(getApplicationContext().getAssets(), "fonts/weathericons-regular-webfont.ttf");
+        setContentView( R.layout.activity_subordinate );
+        //weatherFont = Typeface.createFromAsset(getApplicationContext().getAssets(), "fonts/weathericons-regular-webfont.ttf");
 
         cityField = (TextView)findViewById(R.id.city_field);
         updatedField = (TextView)findViewById(R.id.updated_field);
@@ -31,7 +32,7 @@ public class SubordinateActivity extends Activity{
         humidity_field = (TextView)findViewById(R.id.humidity_field);
         pressure_field = (TextView)findViewById(R.id.pressure_field);
         weatherIcon = (TextView)findViewById(R.id.weather_icon);
-        weatherIcon.setTypeface(weatherFont);
+        //weatherIcon.setTypeface(weatherFont);
 
 
        Function.placeIdTask asyncTask =new Function.placeIdTask(new Function.AsyncResponse() {

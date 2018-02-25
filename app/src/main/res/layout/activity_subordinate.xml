@@ -41,8 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
+        android:text="temp"
         android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
         android:textSize="50sp" />
 
     <TextView
@@ -77,8 +78,7 @@
         android:id="@+id/returnMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/updated_field"
-        android:layout_alignBottom="@+id/updated_field"
+        android:layout_above="@+id/weather_icon"
         android:layout_centerHorizontal="true"
         android:onClick="goBackToMain"
         android:text="Return to Main" />
