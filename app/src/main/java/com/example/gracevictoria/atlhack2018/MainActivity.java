@@ -131,6 +131,12 @@ public class MainActivity extends AppCompatActivity {
         alarmTextView.setText(alarmText);
     }
 
+    private class ButtonHandler implements View.OnClickListener {
+        public void onClick( View v ) {
+
+        }
+    }
+
 
 
     @Override

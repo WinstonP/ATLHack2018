@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="details_field" type="id" />
+    <item name="updated_field" type="id" />
+    <item name="city_field" type="id" />
+    <item name="current_temperature_field" type="id" />
+    <item name="humidity_field" type="id" />
+    <item name="pressure_field" type="id" />
+    <item name="weather_icon" type="id" />
+</resources>
