@@ -45,7 +45,7 @@ public class RingtonePlayingService extends Service {
         Notification mNotify  = new Notification.Builder(this)
                 .setContentTitle("Richard Dawkins is talking" + "!")
                 .setContentText("Click me!")
-                .setSmallIcon(R.drawable.ic_action_call)
+                .setSmallIcon(R.drawable.weather_img)
                 .setContentIntent(pIntent)
                 .setAutoCancel(true)
                 .build();
@@ -79,7 +79,7 @@ public class RingtonePlayingService extends Service {
             Log.e("random number is ", String.valueOf(random_number));
 
             if (random_number == 1) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.song1);
             }
 
             else if (random_number == 9) {
