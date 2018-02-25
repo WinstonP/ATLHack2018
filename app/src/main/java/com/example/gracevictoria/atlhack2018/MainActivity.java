@@ -6,16 +6,19 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.github.fedy2.weather.YahooWeatherService;
+import com.github.fedy2.weather.data.Channel;
+import com.github.fedy2.weather.data.unit.DegreeUnit;
+
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.Random;
 
@@ -38,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        YahooWeatherService service = new YahooWeatherService();
+        Channel channel = null;
+        try {
+            channel = service.getForecast("2502265", DegreeUnit.CELSIUS);
+            System.out.println(channel.getDescription());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
         this.context = this;
