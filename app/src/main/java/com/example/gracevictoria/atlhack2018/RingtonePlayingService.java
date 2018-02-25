@@ -79,7 +79,7 @@ public class RingtonePlayingService extends Service {
             Log.e("random number is ", String.valueOf(random_number));
 
             if (random_number == 1) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.Hey Ya!);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.song1);
             }
 
             else if (random_number == 9) {
