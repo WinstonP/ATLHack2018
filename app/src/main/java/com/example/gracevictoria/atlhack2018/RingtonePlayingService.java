@@ -79,16 +79,16 @@ public class RingtonePlayingService extends Service {
             Log.e("random number is ", String.valueOf(random_number));
 
             if (random_number == 1) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.song1);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.kingsdeadsound);
             }
-
+/*
             else if (random_number == 9) {
                 mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_9);
             }
             else {
                 mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
             }
-            //mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+            //mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);*/
 
             mMediaPlayer.start();
 

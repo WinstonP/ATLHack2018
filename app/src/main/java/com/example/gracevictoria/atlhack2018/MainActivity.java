@@ -147,4 +147,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void cancelTimer(View view) {
+        finish();
+    }
 }

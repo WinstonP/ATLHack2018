@@ -6,14 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.gracevictoria.atlhack2018.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TimePicker
         android:id="@+id/timePicker"
@@ -24,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.423" />
 
 
 
@@ -42,26 +35,28 @@
         android:layout_marginLeft="63dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        android:elevation="2dp"/>
 
     <Button
+        android:id="@+id/stop_alarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Unset alarm"
-        android:id="@+id/stop_alarm"
+        android:layout_alignParentEnd="true"
 
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:onClick="cancelTimer"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/alarmText"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toRightOf="@+id/start_alarm"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintHorizontal_bias="0.705"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="cancelTimer"
+        android:text="Unset alarm"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="8dp" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/start_alarm"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alarmText"
+        app:layout_constraintVertical_bias="0.98" />
 
     <TextView
         android:layout_width="wrap_content"
