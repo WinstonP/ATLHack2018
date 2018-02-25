@@ -14,11 +14,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.github.fedy2.weather.YahooWeatherService;
-import com.github.fedy2.weather.data.Channel;
-import com.github.fedy2.weather.data.unit.DegreeUnit;
-
-import java.io.IOException;
 import java.util.Calendar;
 import java.util.Random;
 
@@ -125,17 +120,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
     }
 
     public void setAlarmText(String alarmText) {
         alarmTextView.setText(alarmText);
     }
 
-    private class ButtonHandler implements View.OnClickListener {
-        public void onClick( View v ) {
-
-        }
-    }
 
 
 
@@ -155,5 +147,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void cancelTimer(View view) {
         finish();
+    }
+
+    public void WeatherButton3(View view) {
+        Intent myIntent = new Intent(this, SubordinateActivity.class);
+        this.startActivity(myIntent);
     }
 }

@@ -1,4 +1,4 @@
-package com.androstock.myweatherapp;
+package com.example.gracevictoria.atlhack2018;
 
 /**
  * Created by SHAJIB on 7/4/2017.
