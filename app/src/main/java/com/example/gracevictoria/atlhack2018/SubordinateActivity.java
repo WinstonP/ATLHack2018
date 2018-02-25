@@ -33,7 +33,7 @@ public class SubordinateActivity extends Activity{
         weatherIcon.setTypeface(weatherFont);
 
 
-        com.androstock.myweatherapp.Function.placeIdTask asyncTask =new com.androstock.myweatherapp.Function.placeIdTask(new com.androstock.myweatherapp.Function.AsyncResponse() {
+       /* com.androstock.myweatherapp.Function.placeIdTask asyncTask =new com.androstock.myweatherapp.Function.placeIdTask(new com.androstock.myweatherapp.Function.AsyncResponse() {
             public void processFinish(String weather_city, String weather_description, String weather_temperature, String weather_humidity, String weather_pressure, String weather_updatedOn, String weather_iconText, String sun_rise) {
 
                 cityField.setText(weather_city);
@@ -45,8 +45,8 @@ public class SubordinateActivity extends Activity{
                 weatherIcon.setText(Html.fromHtml(weather_iconText));
 
             }
-        });
-        asyncTask.execute("33.784074", "-84.383049"); //  asyncTask.execute("Latitude", "Longitude")
+        });*/
+       // asyncTask.execute("33.784074", "-84.383049"); //  asyncTask.execute("Latitude", "Longitude")
 
 
 

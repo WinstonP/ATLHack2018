@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 ///////////////////////////////////grace broke something////////////
-        YahooWeatherService service = new YahooWeatherService();
+      /*  YahooWeatherService service = new YahooWeatherService();
         Channel channel = null;
         try {
             channel = service.getForecast("2502265", DegreeUnit.CELSIUS);
             System.out.println(channel.getDescription());
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
 
         this.context = this;
